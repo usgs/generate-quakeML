@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2" xmlns="http://quakeml.org/xmlns/bed/1.2">
+  <eventParameters publicID="quakeml:us.anss.org/eventParameters/1000abc">
+    <event publicID="quakeml:us.anss.org/event/us1000abc" catalog:eventsource="us" catalog:datasource="us" catalog:dataid="us1000abc" catalog:eventid="1000abc">
+      <preferredOriginID>quakeml:us.anss.org/origin/us1000abc</preferredOriginID>
+      <preferredMagnitudeID>quakeml:us.anss.org/magnitude/us1000abc/Mw</preferredMagnitudeID>
+      <type>earthquake</type>
+      <comment>
+        <text>this is a test simulating insignificantly small earthquake in middle of Pacific Ocean on June 20, 2017</text>
+      </comment>
+      <creationInfo>
+        <agencyID>us</agencyID>
+        <creationTime>2018-01-16T23:40:54.000000Z</creationTime>
+      </creationInfo>
+      <origin publicID="quakeml:us.anss.org/origin/us1000abc">
+        <time>
+          <value>2017-06-20T13:12:27.000000Z</value>
+        </time>
+        <latitude>
+          <value>1.112</value>
+        </latitude>
+        <longitude>
+          <value>-130.218</value>
+        </longitude>
+        <depth>
+          <value>12000.0</value>
+          <uncertainty>7000.0</uncertainty>
+        </depth>
+        <depthType>from location</depthType>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2018-01-16T23:40:54.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <horizontalUncertainty>10000.0</horizontalUncertainty>
+        </originUncertainty>
+      </origin>
+      <magnitude publicID="quakeml:us.anss.org/magnitude/us1000abc/Mw">
+        <mag>
+          <value>0.1</value>
+        </mag>
+        <type>Mw</type>
+        <originID>quakeml:us.anss.org/origin/us1000abc</originID>
+        <evaluationMode>manual</evaluationMode>
+        <evaluationStatus>preliminary</evaluationStatus>
+        <creationInfo>
+          <agencyID>us</agencyID>
+          <creationTime>2018-01-16T23:40:54.000000Z</creationTime>
+        </creationInfo>
+      </magnitude>
+    </event>
+  </eventParameters>
+</q:quakeml>

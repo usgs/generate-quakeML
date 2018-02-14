@@ -1,0 +1,30 @@
+# EVENT 
+eventid:::1000abc
+datasource:::US
+eventsource:::US
+magSource:::US
+locationSource:::US
+eventType:::earthquake
+comment:::this is a test simulating an insignificantly small earthquake in the middle of the Pacific Ocean on June 20, 2017
+title:::
+
+# MAGNITUDE 
+mag:::0.1
+type:::Mw
+evaluationModeMag:::manual
+evaluationStatusMag:::preliminary
+
+# ORIGIN
+time:::2017-06-20T13:12:27Z
+longitude:::-130.218
+latitude:::1.112
+horizontalUncertainty:::10
+depth:::12
+depthType:::from location
+uncertainty:::7
+evaluationModeOrg:::manual
+evaluationStatusOrg:::preliminary
+
+
+
+
