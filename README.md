@@ -65,7 +65,7 @@ Full example file: [input.text](input.txt)
 - eventsource [string]: Code for the agency that collected the data
 - magSource [string]: Network that originally authored the reported magnitude for this event. Typical values include AK, AT, CI, HV, LD, MB, NC, NM, NN, PR, PT, SE, US, UU, UW
 - locationSource [string]: The network that originally authored the reported location of this event.  Typical values include AK, AT, CI, HV, LD, MB, NC, NM, NN, PR, PT, SE, US, UU, UW
-- eventType [enumeration] Must match one of the following: 
+- eventType [enumeration]: Must match one of the following: 
 "not existing", 
 "not reported", 
 "earthquake", 
@@ -116,8 +116,8 @@ Full example file: [input.text](input.txt)
 ### Magnitude Keys
 - mag [string]: Magnitude of event (will be preferred magnitude value)
 - type [string]: The method or algorithm used to calculate the preferred magnitude for the event.  Typical values include Md, Ml, Ms, Mw, Me, Mi, Mb, MLg
-- evaluationModeMag [enumeration] Must be one of the following: manual: automatic
-- evaluationStatusMag [enumeration] Must be one of the following: reviewed, preliminary, confirmed, final, rejected, reported
+- evaluationModeMag [enumeration]: Must be one of the following: manual: automatic
+- evaluationStatusMag [enumeration]: Must be one of the following: reviewed, preliminary, confirmed, final, rejected, reported
 
 
 ### Origin Keys
@@ -128,8 +128,8 @@ Full example file: [input.text](input.txt)
 - depth [string]: Depth of the event in kilometers (program converts this to meters for quakeml)
 - depthType [string]: Type of origin depth determination. Allowed values are, "from location", "from moment tensor inversion", "from modeling of broad-band P waveforms", "constrained by depth phases", "constrained by direct phases", "constrained by depth and direct phases", "operator assigned", "other"
 - uncertainty [string]: Vertical uncertainty of reported location of the event in kilometers.
-- evaluationModeOrg [enumeration] Must be one of the following: manual: automatic
-- evaluationStatusOrg [enumeration] Must be one of the following: reviewed, preliminary, confirmed, final, rejected, reported
+- evaluationModeOrg [enumeration]: Must be one of the following: manual: automatic
+- evaluationStatusOrg [enumeration]: Must be one of the following: reviewed, preliminary, confirmed, final, rejected, reported
 
 # 6. Contact Information
 
